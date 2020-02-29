@@ -1,25 +1,65 @@
 @import '~materialize-css/dist/css/materialize.min.css';
 
+body {
+  transition: 2s;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 20px;
+  background: rgba(88, 88, 88, 0.233); 
+}
+
 .card-title {
   font-size: 40px !important;
   padding: 5% 0 10% 0 !important;
+  transition: 3s !important;
 }
 
 .quotes-p {
   font-size: 30px !important;
   padding: 0 0 5% 0 !important;
+  transition: 1s;
 }
 
 .btn-size {
   width: 50% !important;
-  font-size: 15px;
+  font-size: 15px !important;
+  transition: 1s !important;
 }
 
 .card {
   border-radius: 20px !important;
+  transition: 2s !important;
 }
 
 .mini-icon {
   font-size: 40px;
   margin-right: 1%;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.modal-p {
+  font-size: 26px;
+}
+
+.modal-title {
+  font-size: 40px !important;
+  margin: 3% 0 5% 0 !important;
 }
