@@ -1,1 +1,25 @@
 @import '~materialize-css/dist/css/materialize.min.css';
+
+.card-title {
+  font-size: 40px !important;
+  padding: 5% 0 10% 0 !important;
+}
+
+.quotes-p {
+  font-size: 30px !important;
+  padding: 0 0 5% 0 !important;
+}
+
+.btn-size {
+  width: 50% !important;
+  font-size: 15px;
+}
+
+.card {
+  border-radius: 20px !important;
+}
+
+.mini-icon {
+  font-size: 40px;
+  margin-right: 1%;
+}
