@@ -20,11 +20,11 @@ class Modal extends Component {
       <div>
         <div ref={Modal => this.Modal = Modal} id="modal1" className="modal">
           <div className="modal-content">
-            <h4 className="modal-title" style={{ color: this.props.color }}>Цитата</h4>
+            <h4 className="modal-title" style={{ color: this.props.color }}>Новость</h4>
             <p className="modal-p" style={{ color: this.props.color }}>{this.props.text}</p>
           </div>
           <div className="modal-footer">
-            <a style={{ color: this.props.color }} className="modal-close waves-effect waves-red btn-flat">
+            <a href="/#" style={{ color: this.props.color }} className="modal-close waves-effect waves-red btn-flat">
               Закрыть
             </a>
           </div>
