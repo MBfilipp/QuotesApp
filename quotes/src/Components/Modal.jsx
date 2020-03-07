@@ -24,7 +24,7 @@ class Modal extends Component {
             <p className="modal-p" style={{ color: this.props.color }}>{this.props.text}</p>
           </div>
           <div className="modal-footer">
-            <a style={{ color: this.props.color }} className="modal-close waves-effect waves-red btn-flat">
+            <a href="/news-app/#" style={{ color: this.props.color }} className="modal-close waves-effect waves-red btn-flat">
               Закрыть
             </a>
           </div>
