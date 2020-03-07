@@ -2,6 +2,8 @@
 
 body {
   transition: 2s;
+  font-family: 'Courier Prime', monospace !important;
+  word-spacing: 0.1em;
 }
 
 ::-webkit-scrollbar {
@@ -29,6 +31,7 @@ body {
   font-size: 30px !important;
   padding: 0 0 5% 0 !important;
   transition: 1s;
+  word-spacing: 0.001em !important; 
 }
 
 .btn-size {
@@ -58,6 +61,7 @@ body {
 
 .modal-p {
   font-size: 26px;
+  word-spacing: 0.001em !important; 
 }
 
 .modal-title {
@@ -92,4 +96,9 @@ body {
 
 a > i.fa-github {
   color: white;
+  margin-left: 10px;
+}
+
+.toast {
+  word-spacing: 0.001em !important; 
 }
