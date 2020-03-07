@@ -89,3 +89,7 @@ body {
   margin-left: 5px !important;
   font-size: 25px;
 }
+
+a > i.fa-github {
+  color: white;
+}
